@@ -1,0 +1,12 @@
+extends:
+  - react-app
+  - react-app/jest
+  - eslint:recommended
+  - plugin:react/recommended
+
+rules:
+  react/react-in-jsx-scope:
+    - off
+  import/no-anonymous-default-export:
+    - 2
+    - allowObject: true
